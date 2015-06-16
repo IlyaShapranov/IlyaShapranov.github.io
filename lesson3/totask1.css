@@ -1,5 +1,4 @@
-h1
-{
+h1 {
     text-align: right;
     color: orange;
     font-weight: bold;
@@ -7,12 +6,14 @@ h1
     font-family: inherit;
     margin: 10px 1000px 10px 10px;
 }
-
+div {
+    margin: 10px 1000px 10px 10px;
+}
 p {
     font-size: 15px;
     color: black;
     font-weight: normal; /*размер шрифта*/
-    margin: 20px 1000px 10px 10px;
+    margin: 20px 30px 10px 10px;
     text-align: left;
     font-family: inherit;
 }
@@ -32,9 +33,78 @@ p:first-letter {
     position: inherit;
     top: 5px;
 }
-em
-{
+em {
     background-color: green;
     color: white;
 }
+#allotment {
+    width: 300px;
+    height: 220px;
+}
+#warehouse {
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-top: 0px;
+}
 
+div[class=plants-list] {
+    padding: 10px 10px 0px 10px;
+    margin: 10px 1000px 0px 10px;
+    font-family: inherit;
+}
+ol[class=vegetables-list] {
+    color: red;
+}
+ol[class=fruits-list]
+{
+    color: green;
+}
+.fr-all {
+    color: #aad0c1;
+}
+h2 {
+    font-weight: bold;
+}
+li {
+    font-weight: bold;
+}
+#allotment h2:first-child
+{
+    color: orange;
+}
+#warehouse h2:nth-child(1)
+{
+    color: blue;
+}
+
+table {
+    width: 27%;
+    border-collapse: inherit;
+    border-spacing: 2px;
+    text-align: center;
+}
+thead {
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 3px; /* Поля в ячейках */
+    border-left: 3px double #333;
+}
+.deti
+{
+    color: black;
+    background: green;
+}
+
+.deti td:nth-child(4n+1)
+{
+    color: orange;
+    background: white;
+    text-align: left;
+}
+.students-table {
+    float: left;
+}

@@ -1,0 +1,72 @@
+#blue:not(checked)
+{
+    position: absolute;
+    opacity: 0;
+}
+#red
+{
+    position: absolute;
+    opacity: 0;
+}
+#green
+{
+    position: absolute;
+    opacity: 0;
+}
+label[for="red"]
+{
+    color: red;
+    text-decoration: underline;
+    float: left;
+}
+label[for="green"]
+{
+    color: green;
+    text-decoration: underline;
+    float: left;
+}
+label[for="blue"]
+{
+    color: blue;
+    text-decoration: underline;
+    float: left;
+}
+.red
+{
+    color: red;
+}
+.blue
+{
+    color: blue;
+}
+.green
+{
+    color: green;
+}
+#red:checked ~ .red
+{
+    color: white;
+    float: left;
+}
+#blue:checked ~ .blue
+{
+    color: white;
+    float: left;
+}
+#green:checked ~ .green
+{
+    color: white;
+    float: left;
+}
+#red:checked ~ label[for="red"]
+{
+    color: hsla(0,100%,50%,.5);
+}
+#green:checked ~ label[for="green"]
+{
+    color: rgba(0,128,0,.5);
+}
+#blue:checked ~ label[for="blue"]
+{
+    color: hsla(240,100%,50%,.5);
+}
