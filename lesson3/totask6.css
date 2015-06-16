@@ -3,12 +3,12 @@
     position: absolute;
     opacity: 0;
 }
-#red
+#red:not(checked)
 {
     position: absolute;
     opacity: 0;
 }
-#green
+#green:not(checked)
 {
     position: absolute;
     opacity: 0;
@@ -18,18 +18,21 @@ label[for="red"]
     color: red;
     text-decoration: underline;
     float: left;
+    padding-right: 5px;
 }
 label[for="green"]
 {
     color: green;
     text-decoration: underline;
     float: left;
+    padding-right: 5px;
 }
 label[for="blue"]
 {
     color: blue;
     text-decoration: underline;
     float: left;
+    padding-right: 10px;
 }
 .red
 {
