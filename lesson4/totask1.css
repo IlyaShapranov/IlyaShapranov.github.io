@@ -1,0 +1,28 @@
+#menu {
+    background: #a64dff;
+    width: 100%;
+    margin: 15px;
+}
+
+a {
+    font-family: Impact, serif;
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+a:hover {
+    color: #a09da4;
+    background: #eeeeee;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+}
+
+ul {
+    width: 900px;
+    text-align: center;
+}
